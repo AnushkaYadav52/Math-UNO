@@ -6,13 +6,13 @@ Math-UNO is a fun twist on the classic UNO card game, enhanced with **simulated 
 
 The AI opponent is designed to **simulate intelligent decision-making** by using programmed logic that adapts to player moves. It focuses on:
 
-- 🃏 **Playable card selection**
-- ➕➖✖️➗ **Mathematical conditions and tactical play**
-- 🔮 **Basic opponent tracking and predictive strategies**
+- **Playable card selection**
+- **Mathematical conditions and tactical play**
+- **Basic opponent tracking and predictive strategies**
 
 ## 🔹 Features
 
-- 🧠 **Scripted AI opponent** with logic-based decision-making
-- ➗ **Mathematical twist** for more strategic depth
-- 💻 **Console-based interface** for a lightweight experience
-- 🎮 **UNO-style gameplay** with a fresh, educational edge
+- **Scripted AI opponent** with logic-based decision-making
+- **Mathematical twist** for more strategic depth
+- **Console-based interface** for a lightweight experience
+- **UNO-style gameplay** with a fresh, educational edge
