@@ -1,18 +1,37 @@
 # 🃏 Math-UNO
 
-Math-UNO is a fun twist on the classic UNO card game, enhanced with **simulated AI behavior** and mathematical decision-making. While the AI is not real artificial intelligence, it mimics strategic play through carefully crafted logic and algorithms. The result? A console-based game that's both entertaining and intellectually stimulating!
+Math-UNO is a console-based twist on the classic UNO card game, using **logic-driven AI behavior** and simple mathematical decision-making.
 
-## 🤖 Simulated AI Gameplay
+This project was **co-developed** to explore game logic and AI-like decision systems.
 
-The AI opponent is designed to **simulate intelligent decision-making** by using programmed logic that adapts to player moves. It focuses on:
+## 🤖 AI Gameplay System
 
-- **Playable card selection**
-- **Mathematical conditions and tactical play**
-- **Basic opponent tracking and predictive strategies**
+The AI uses rule-based logic to make decisions based on the current game state rather than random moves.
 
-## 🔹 Features
+### 🧠 Example Logic
 
-- **Scripted AI opponent** with logic-based decision-making
-- **Mathematical twist** for more strategic depth
-- **Console-based interface** for a lightweight experience
-- **UNO-style gameplay** with a fresh, educational edge
+In real UNO, players adjust strategy based on how many cards opponents have. We applied the same idea in code:
+
+- The AI can "see" how many cards each player has  
+- If an opponent has **1–2 cards**, the AI plays defensive cards (skip, reverse, draw)  
+- If an opponent has **many cards**, the AI plays more aggressively to reduce its hand faster  
+- If the AI is close to winning, it prioritizes optimal card plays  
+
+## 🎮 How to Play
+
+1. Clone or download the repository  
+2. Open a terminal in the project directory  
+3. Run the game using Python  
+4. The game will launch in the console and you can start playing  
+
+## 🧠 Project Goal
+
+This project was built to explore:
+- Game logic design  
+- AI-like behavior using algorithms  
+- Object-oriented programming concepts  
+- Strategy-based decision systems  
+
+## 🚀 Outcome
+
+A fun, educational game that demonstrates how simple conditional logic and game-state awareness can simulate intelligent behavior in a classic card game environment.
