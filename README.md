@@ -4,18 +4,18 @@ Math-UNO is a console-based twist on the classic UNO card game, using **logic-dr
 
 This project was **co-developed** to explore game logic and AI-like decision systems.
 
-## 🤖 AI Gameplay System
+## 🤖 Gameplay System
 
-The AI uses rule-based logic to make decisions based on the current game state rather than random moves.
+The algorithm uses rule-based logic to make decisions based on the current game state rather than random moves.
 
 ### 🧠 Example Logic
 
 In real UNO, players adjust strategy based on how many cards opponents have. We applied the same idea in code:
 
-- The AI can "see" how many cards each player has  
-- If an opponent has **1–2 cards**, the AI plays defensive cards (skip, reverse, draw)  
-- If an opponent has **many cards**, the AI plays more aggressively to reduce its hand faster  
-- If the AI is close to winning, it prioritizes optimal card plays  
+- The computer can "see" how many cards each player has  
+- If an opponent has **1–2 cards**, the computer plays defensive cards (skip, reverse, draw)  
+- If an opponent has **many cards**, the computer plays more aggressively to reduce its hand faster  
+- If the computer is close to winning, it prioritizes optimal card plays  
 
 ## 🎮 How to Play
 
